@@ -1,8 +1,8 @@
 # Arch linux i3 pc setup
----
 
-<img src="./screenshots/ss1">
-<img src="./screenshots/ss2">
+<img src="./screenshots/ss1.png">
+<img src="./screenshots/ss2.png">
+
 ---
 
 ## info
