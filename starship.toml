@@ -1,0 +1,198 @@
+command_timeout = 5000
+
+format = """
+[ ](#504945)\
+$directory\
+[](fg:#504945 bg:#d79921)\
+$git_branch\
+$git_status\
+[ ](fg:#d79921)
+$character
+"""
+
+# [username]
+# format = " [$user]($style)"
+# style_user = "#fabd2f"
+# style_root = "#b16286"
+# show_always = true
+
+[character]
+success_symbol = " [❯](bold #458588) "
+error_symbol =   " [❯](bold #cc241d) "
+
+[directory]
+format = '[ $path ]($style)'
+truncation_length = 3
+truncation_symbol = '…/'
+style = '#bdae93 bg:#504945'
+truncate_to_repo = false
+repo_root_style = 'bold #d79921 bg:#504945'
+repo_root_format = '[ $before_root_path]($before_repo_root_style)[$repo_root ]($repo_root_style)[$path]($style)[$read_only]($read_only_style)'
+
+[cmd_duration]
+disabled = true
+
+[git_commit]
+tag_symbol = " tag "
+
+[git_status]
+ahead = ">"
+behind = "<"
+diverged = "<>"
+renamed = "r"
+deleted = "x"
+style = '#1d2021 bg:#d79921'
+format = '[$all_status$ahead_behind ]($style)'
+
+[git_branch]
+# symbol = ""
+style = '#1d2021 bg:#d79921'
+format = '[ $symbol$branch ]($style)'
+
+[time]
+disabled = false
+format = '[ $time ]($style) '
+time_format = '%T'
+utc_time_offset = '+7'
+time_range = '10:00:00-14:00:00'
+
+[aws]
+symbol = "aws "
+
+[azure]
+symbol = "az "
+
+[bun]
+symbol = "bun "
+
+[c]
+symbol = "C "
+
+[cobol]
+symbol = "cobol "
+
+[conda]
+symbol = "conda "
+
+[crystal]
+symbol = "cr "
+
+[cmake]
+symbol = "cmake "
+
+[daml]
+symbol = "daml "
+
+[dart]
+symbol = "dart "
+
+[deno]
+symbol = "deno "
+
+[dotnet]
+symbol = ".NET "
+
+[docker_context]
+symbol = "docker "
+
+[elixir]
+symbol = "exs "
+
+[elm]
+symbol = "elm "
+
+[fennel]
+symbol = "fnl "
+
+[fossil_branch]
+symbol = "fossil "
+
+[gcloud]
+symbol = "gcp "
+
+[golang]
+symbol = "go "
+
+[gradle]
+symbol = "gradle "
+
+[guix_shell]
+symbol = "guix "
+
+[hg_branch]
+symbol = "hg "
+
+[java]
+symbol = "java "
+
+[julia]
+symbol = "jl "
+
+[kotlin]
+symbol = "kt "
+
+[lua]
+symbol = "lua "
+
+[nodejs]
+symbol = "nodejs "
+
+[meson]
+symbol = "meson "
+
+[nim]
+symbol = "nim "
+
+[nix_shell]
+symbol = "nix "
+
+[ocaml]
+symbol = "ml "
+
+[opa]
+symbol = "opa "
+
+[perl]
+symbol = "pl "
+
+[php]
+symbol = "php "
+
+[pijul_channel]
+symbol = "pijul "
+
+[pulumi]
+symbol = "pulumi "
+
+[purescript]
+symbol = "purs "
+
+[python]
+symbol = "py "
+
+[raku]
+symbol = "raku "
+
+[ruby]
+symbol = "rb "
+
+[rust]
+symbol = "rs "
+
+[scala]
+symbol = "scala "
+
+[spack]
+symbol = "spack "
+
+[solidity]
+symbol = "solidity "
+
+[swift]
+symbol = "swift "
+
+[terraform]
+symbol = "terraform "
+
+[zig]
+symbol = "zig "
